@@ -34,7 +34,7 @@ if not DEBUG:
         ".rutafpv.cl",
         "www.rutafpv.cl",
         "https://ruta-fpv.onrender.com",
-        "rutafpv.onrender.com",
+        "ruta-fpv.onrender.com",
     ]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
