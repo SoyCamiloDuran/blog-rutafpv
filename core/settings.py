@@ -32,7 +32,7 @@ if not DEBUG:
         "rutafpv.cl",
         ".rutafpv.cl",
         "www.rutafpv.cl",
-        "https://rutafpv.onrender.com",
+        "https://ruta-fpv.onrender.com",
         "rutafpv.onrender.com",
     ]
 
@@ -125,7 +125,7 @@ CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1:3000',
     'https://rutafpv.cl',
     "https://rutafpv.s3.amazonaws.com",
-    "https://rutafpv.onrender.com",
+    "https://ruta-fpv.onrender.com",
     
 ]
 
@@ -136,18 +136,18 @@ CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:3000',
     'https://rutafpv.cl',
     "https://rutafpv.s3.amazonaws.com",
-    "https://rutafpv.onrender.com",
+    "https://ruta-fpv.onrender.com",
 ]
 
 if not DEBUG:
     CORS_ORIGIN_WHITELIST = [
         'https://rutafpv.cl',
-        "https://rutafpv.onrender.com",
+        "https://ruta-fpv.onrender.com",
     ]
 
     CSRF_TRUSTED_ORIGINS = [
         'https://rutafpv.cl',
-        "https://rutafpv.onrender.com",
+        "https://ruta-fpv.onrender.com",
     ]
 
 
