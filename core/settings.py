@@ -229,7 +229,7 @@ ACTIVE_CAMPAIGN_KEY=os.environ.get('ACTIVE_CAMPAIGN_KEY')
 
 
 if not DEBUG:
-    DEFAULT_FROM_EMAIL="Uridium <mail@uridium.network>"
+    DEFAULT_FROM_EMAIL="RutaFPV<rutafpv@gmail.com>"
     EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
     # EMAIL_HOST = env('EMAIL_HOST')
     # EMAIL_HOST_USER = env('EMAIL_HOST_USER')
