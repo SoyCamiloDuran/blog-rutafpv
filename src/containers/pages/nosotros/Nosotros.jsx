@@ -4,6 +4,7 @@ import { Fragment, useEffect } from 'react'
 import { Tab } from '@headlessui/react'
 import { Link } from "react-router-dom"
 
+
 // const tabs = [
 //   {
 //     name: 'Uridium Network',
@@ -109,6 +110,12 @@ import { Link } from "react-router-dom"
 //   },
 // ]
 
+app.use(
+    helmet({
+      contentSecurityPolicy: false,
+      crossOriginEmbedderPolicy: false,
+    })
+);
 
 
 const people = [
