@@ -245,7 +245,6 @@ if not DEBUG:
     # EMAIL_PORT = env('EMAIL_PORT')
     # EMAIL_USE_TLS = env('EMAIL_USE_TLS')
 
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
     
     # # django-ckeditor will not work with S3 through django-storages without this line in settings.py
     # AWS_QUERYSTRING_AUTH = False
