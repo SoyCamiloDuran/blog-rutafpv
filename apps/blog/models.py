@@ -2,6 +2,7 @@ from django.db import models
 import uuid
 from django.utils import timezone
 from apps.category.models import Category
+from ckeditor.fields import RichTextField
 
 def blog_directory_path(instance, filename):
     return 'blog/{0}/{1}'.format(instance.title, filename)
@@ -20,7 +21,7 @@ class Post(models.Model):
     title =             models.CharField(max_length=255)
     slug =              models.SlugField(unique=True)
     thumbnail =         models.ImageField(upload_to=blog_directory_path)
-    description =       models.TextField()
+    description =       RichTextField(null=True, blank=True)
     excerpt =           models.CharField(max_length=100)
     category =          models.ForeignKey(Category, on_delete=models.PROTECT)
     published =         models.DateTimeField(default=timezone.now)

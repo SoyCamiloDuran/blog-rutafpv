@@ -42,7 +42,7 @@ export default function FAQs() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-gray-500 font-gilroy-regular">{faq.answer}</p>
+                      <p className="text-base text-gray-500 font-gilroy-regular">dangerouslySetInnerHTML={{__html: faq.answer}}</p>
                     </Disclosure.Panel>
                   </>
                 )}
