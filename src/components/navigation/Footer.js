@@ -73,7 +73,6 @@ function Footer(){
           toast.success('Gracias por suscribirte',{
             position: "top-center"
           });
-          document.getElementById("email").value = "";
         })
         .catch(err => {
           setLoading(false);

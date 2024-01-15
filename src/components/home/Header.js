@@ -37,7 +37,7 @@ function Header(){
         .then(res => {
 
           setTimeout(navigate('/demo'),500)
-          document.getElementById("email").value = "";
+          
       
         })
         .catch(err => {
