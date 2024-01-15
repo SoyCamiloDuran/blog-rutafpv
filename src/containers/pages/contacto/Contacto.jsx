@@ -66,11 +66,6 @@ function Contacto(){
             toast.success("Mensaje enviado correctamente, estaremos en contacto muy pronto",{
               position: "top-center"
             });
-            document.getElementById("name").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("phone").value = "";
-            document.getElementById("subject").value = "";
-            document.getElementById("message").value = "";
             
           })
           .catch(err => {
