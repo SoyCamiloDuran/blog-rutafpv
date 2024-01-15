@@ -110,20 +110,13 @@ import { Link } from "react-router-dom"
 //   },
 // ]
 
-app.use(
-    helmet({
-      contentSecurityPolicy: false,
-      crossOriginEmbedderPolicy: false,
-    })
-);
-
 
 const people = [
     {
       name: 'Camilo Duran',
       role: 'Founder / CEO',
       imageUrl:
-        'https://lh3.googleusercontent.com/pw/ABLVV864EgF1_5kN9rOdEIpotG4megmrGH3zZh4DebdNI-BG0tXW2JQ2cHIXVtpatTG334BbntWOaDUWI3R8ZNAXLd1E9OFHGvO8zDfki3p_iwSELIjZknsKLZv1HuKpRK5N-wo-jAQBWz43t0A8lunhlyEC4ImGavW10nbq0cF860sQqKYsMmfGAcgUJWKc8jiinb-c_gt-9DIPSL2DYLtPEmmJ5_UqXSEt_QdhtU25b3p4wZJjexV972juEbn4sT_16EGQ6Irnp_UJxBES7yx2kfbwmGPBi97l3Uw56wxK6IKE8uTqSSbrgK2S0IGuoOpQsNcVYqZDTj0oi0lO1eOyCSmNqkVmoj1H3914PfZ0KiMtdGlWZfrTyq3TJ5Q0tmi_dRVENHkRqUHdDm8vf0hFJfv5tFUiyuaKWA-CDSh9hAly0Wq4lcpjqg6Axy3CAuiuBZlwtqzrjtfub2ZjUR56urDl9iw92a3_JJNfI6ATv63FKd0EG_-DZhrtueo0uujWLSbRR1vgQgo3qqQP2kwxQck0nvU1aPbO9YnuBGc-NykUJN-KQVIICMMukttHThNtjMYFh0b983f18AN-L-xEMwQ_JdShTEIDxGqHfLpxcpaFhkul_4etQeRCQUazSYwj3ruqg_WnaZzeC24y7VwdIbofXbWCfVH8bwW2hdD25lL2vRPpVeqc1NbPX5jcrPM0MCRB6CwM3e954KeuoECEwB4XrPJV48mWkVuVAQLOtwYQELLulLUiqg60KVOBXzDB-fp2zdmI62A8_yAR46cDNW4GdYBOPdVJlyYo5fqC3_wwx3RQQ4beUZSkKyaPbwpgEHIlHlXhxczk_sC600JqQc3gxYGnOMPYh-pTAXBwrVFv3lVAA0GQdZqwsKf_vFK3FslTXbFmDWg4_zgnryp2aqAdNbd0Dkcy_lnKROXd=w731-h776-s-no-gm?authuser=0',
+        'https://i.ibb.co/k8yKDTF/Foto.png',
     },
     // {
     //     name: 'Nicolas Alarcon',
