@@ -18,7 +18,7 @@ DOMAIN = 'http://localhost:8000'
 SITE_NAME = 'RutaFPV'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'RENDER' not in os.environ
+DEBUG = False
 # DEBUG = True
 
 ALLOWED_HOSTS = [
@@ -65,7 +65,7 @@ THIRD_PARTY_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'storages',
-    'core'
+    'core',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
