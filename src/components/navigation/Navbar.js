@@ -21,16 +21,14 @@ const social = {
       name: 'YouTube',
       href: 'https://www.youtube.com/@rutafpv',
       icon: (props) => (
-        // <i className='bx bxl-youtube text-xl mt-0.5'></i>
-        <i class="fi fi-brands-youtube"></i>
+        <i class="fi fi-brands-youtube text-xl mt-0.5"></i>
       ),
     },
     {
       name: 'Instagram.',
       href: 'https://www.instagram.com/rutafpv/',
       icon: (props) => (
-        // <i className='bx bxl-instagram text-xl mt-0.5' ></i>
-        <i class="fi fi-brands-instagram"></i>
+        <i class="fi fi-brands-instagram text-xl mt-0.5"></i>
       ),
     },
   ],
@@ -48,9 +46,9 @@ function Navbar({account}){
       return (
         <span onClick={handleMode}>
           {darkTheme ? (
-              <i className='bx bx-sun dark:text-dark-txt hover:text-yellow-500 dark:hover:text-yellow-500 ml-4 md:mr-3 mr-2 inline-flex text-xl'></i>
+              <i className='fi fi-rr-sun dark:text-dark-txt hover:text-yellow-500 dark:hover:text-yellow-500 ml-4 md:mr-3 mr-2 inline-flex text-xl'></i>
           ) : (
-              <i className='bx bx-moon dark:text-dark-txt hover:text-blue-900  ml-4 md:mr-3 mr-2 inline-flex text-xl'></i>
+              <i className='fi fi-rr-moon dark:text-dark-txt hover:text-blue-900  ml-4 md:mr-3 mr-2 inline-flex text-xl'></i>
           )}
         </span>
       );
@@ -98,7 +96,7 @@ function Navbar({account}){
 
               <div className="flex lg:flex-1 lg:items-center lg:justify-end space-x-5">
                 {social.social.map((item) => (
-                  <a key={item.name} href={item.href} target="_blank" className="text-gray-400 hover:text-blue-600 border px-1 rounded-full">
+                  <a key={item.name} href={item.href} target="_blank" className="text-gray-400 hover:text-blue-600">
                     <span className="sr-only">{item.name}</span>
                     <item.icon className="h-4 w-4" aria-hidden="true" />
                   </a>

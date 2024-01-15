@@ -28,14 +28,14 @@ const navigation = {
         name: 'Instagram',
         href: 'https://www.instagram.com/rutafpv/',
         icon: (props) => (
-          <i className='bx bxl-instagram text-2xl' ></i>
+          <i class="fi fi-brands-instagram text-xl mt-0.5"></i>
         ),
       },
       {
         name: 'YouTube',
         href: 'https://youtube.com/@rutafpv',
         icon: (props) => (
-          <i className='bx bxl-youtube text-2xl'></i>
+          <i class="fi fi-brands-youtube text-xl mt-0.5"></i>
         ),
       },
     ],
