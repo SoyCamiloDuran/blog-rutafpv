@@ -3,9 +3,10 @@ import { connect } from "react-redux"
 import axios from "axios"
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 import { useEffect, useState } from "react"
-import { toast } from 'react-toastify'
+import { toast, ToastContainer } from 'react-toastify'
 import { Switch } from '@headlessui/react'
 import { Link } from "react-router-dom"
+import "react-toastify/dist/ReactToastify.css";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -62,13 +63,22 @@ function Contacto(){
           .then(res => {
             
             setLoading(false);
-            toast.success("Mensaje enviado correctamente, estaremos en contacto muy pronto")
+            toast.success("Mensaje enviado correctamente, estaremos en contacto muy pronto",{
+              position: "top-center"
+            });
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("phone").value = "";
+            document.getElementById("subject").value = "";
+            document.getElementById("message").value = "";
             
           })
           .catch(err => {
             
             setLoading(false);
-            toast.error("Error al enviar mensaje")
+            toast.error("Error al enviar mensaje",{
+              position: "top-center"
+            });
           }) 
         }
 
@@ -76,7 +86,9 @@ function Contacto(){
 
 
       }else {
-        toast.error("Debes aceptar los terminos y politica de privacidad")
+        toast.warn("Debes aceptar los terminos y politica de privacidad",{
+          position: "top-center"
+        });
       }
     }
   
@@ -131,6 +143,7 @@ function Contacto(){
                         Nombre Completo
                         </label>
                         <input
+                          id="name"
                           type="text"
                           value={name}
                           name='name'
@@ -145,6 +158,7 @@ function Contacto(){
                         Correo electronico
                         </label>
                         <input
+                          id="email"
                           name="email"
                           type="email"
                           autoComplete="email"
@@ -179,6 +193,7 @@ function Contacto(){
                           type="text"
                           value={subject}
                           name='subject'
+                          id="subject"
                           onChange={e=>onChange(e)}
                           required
                           className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
@@ -253,6 +268,7 @@ function Contacto(){
                           Enviar
                         </button>
                         }
+                      <ToastContainer />
                       </div>
                     </form>
 

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom"
 import axios from "axios"
-import { toast } from 'react-toastify'
+import { toast, ToastContainer } from 'react-toastify'
+import "react-toastify/dist/ReactToastify.css";
 
 function Header(){
 
@@ -34,13 +35,16 @@ function Header(){
       const fetchData = async () => {
         axios.post(`${process.env.REACT_APP_API_URL}/api/contacts/demo`, formData, config)
         .then(res => {
-          
-          setTimeout(navigate('/demo'),1000)
+
+          setTimeout(navigate('/demo'),500)
+          document.getElementById("email").value = "";
+      
         })
         .catch(err => {
-          
           setLoading(false);
-          toast.error("Erro al enviar mensaje")
+          toast.error("Error al enviar mensaje",{
+            position: "top-center"
+          });
         }) 
       }
 
@@ -62,6 +66,7 @@ function Header(){
                     Email
                   </label>
                   <input
+                    id="email"
                     type="email"
                     name="email"
                     value={email}
@@ -88,6 +93,7 @@ function Header(){
                   >
                     Enviar
                   </button>
+                  <ToastContainer />
                 </form>
                 <p className="mt-3 text-sm text-gray-500">
                   Nos preocupamos por la protección de tus datos. Lea nuestras

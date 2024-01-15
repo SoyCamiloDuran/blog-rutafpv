@@ -21,14 +21,16 @@ const social = {
       name: 'YouTube',
       href: 'https://www.youtube.com/@rutafpv',
       icon: (props) => (
-        <i className='bx bxl-youtube text-xl mt-0.5'></i>
+        // <i className='bx bxl-youtube text-xl mt-0.5'></i>
+        <i class="fi fi-brands-youtube"></i>
       ),
     },
     {
       name: 'Instagram.',
       href: 'https://www.instagram.com/rutafpv/',
       icon: (props) => (
-        <i className='bx bxl-instagram text-xl mt-0.5' ></i>
+        // <i className='bx bxl-instagram text-xl mt-0.5' ></i>
+        <i class="fi fi-brands-instagram"></i>
       ),
     },
   ],

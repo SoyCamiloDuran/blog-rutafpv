@@ -1,7 +1,8 @@
 import { NavLink, useNavigate } from "react-router-dom"
 import { useState } from "react";
 import axios from "axios"
-import { toast } from 'react-toastify'
+import { toast, ToastContainer } from 'react-toastify'
+import "react-toastify/dist/ReactToastify.css";
 
 
 const navigation = {
@@ -69,12 +70,16 @@ function Footer(){
       const fetchData = async () => {
         axios.post(`${process.env.REACT_APP_API_URL}/api/contacts/newsletter`, formData, config)
         .then(res => {
-          toast.success('Gracias por suscribirte')
+          toast.success('Gracias por suscribirte',{
+            position: "top-center"
+          });
+          document.getElementById("email").value = "";
         })
         .catch(err => {
-          
           setLoading(false);
-          toast.error("Error al enviar mensaje")
+          toast.error("Error al enviar mensaje",{
+            position: "top-center"
+          });
         }) 
       }
 
@@ -155,6 +160,7 @@ function Footer(){
                 Email address
               </label>
               <input
+                id="email"
                 type="email"
                 name="email"
                 value={email}
@@ -171,6 +177,7 @@ function Footer(){
                 >
                   Suscríbete
                 </button>
+                <ToastContainer />
               </div>
             </form>
           </div>
