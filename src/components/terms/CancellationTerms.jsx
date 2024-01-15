@@ -22,7 +22,7 @@ export default function CancellationTerms() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Su Plan Premium puede ser cancelado en cualquier momento a través de la página de configuración de su cuenta de usuario o enviando un correo electrónico a mail@vudera.com. Después de la cancelación, su Plan Premium permanecerá activo hasta el final de su período Premium en curso en la medida en que su cuota de suscripción esté pagada. No ofreceremos reembolsos de ninguna cuota o cargo relacionado con su Plan Premium - esto incluye cualquier período parcialmente utilizado o no utilizado por el que ya haya pagado. Su obligación de pagar las cuotas continúa hasta el final de su período Premium.
+                Su Plan Premium puede ser cancelado en cualquier momento a través de la página de configuración de su cuenta de usuario o enviando un correo electrónico a rutafpv@gmail.com. Después de la cancelación, su Plan Premium permanecerá activo hasta el final de su período Premium en curso en la medida en que su cuota de suscripción esté pagada. No ofreceremos reembolsos de ninguna cuota o cargo relacionado con su Plan Premium - esto incluye cualquier período parcialmente utilizado o no utilizado por el que ya haya pagado. Su obligación de pagar las cuotas continúa hasta el final de su período Premium.
                 </p>
             </div>
 
@@ -33,7 +33,7 @@ export default function CancellationTerms() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Estas Condiciones continuarán en vigor hasta la terminación o el vencimiento de su Cuenta o Plan. En caso de terminación o expiración, sus derechos bajo estos Términos, su Cuenta y el derecho a acceder y usar el Servicio terminarán inmediatamente. La terminación o expiración puede implicar la eliminación de su Contenido de Usuario asociado a su Cuenta. Vudera Technologies LLC no tendrá ninguna responsabilidad ante usted por la terminación de sus derechos bajo estos Términos, incluyendo la terminación de su Cuenta o la eliminación de su Contenido de Usuario. Incluso después de la terminación de sus derechos bajo estos Términos, las siguientes Secciones permanecerán en efecto: 6.1, 5, 7, 9 a 13.
+                Estas Condiciones continuarán en vigor hasta la terminación o el vencimiento de su Cuenta o Plan. En caso de terminación o expiración, sus derechos bajo estos Términos, su Cuenta y el derecho a acceder y usar el Servicio terminarán inmediatamente. La terminación o expiración puede implicar la eliminación de su Contenido de Usuario asociado a su Cuenta. Ruta FPV no tendrá ninguna responsabilidad ante usted por la terminación de sus derechos bajo estos Términos, incluyendo la terminación de su Cuenta o la eliminación de su Contenido de Usuario. Incluso después de la terminación de sus derechos bajo estos Términos, las siguientes Secciones permanecerán en efecto: 6.1, 5, 7, 9 a 13.
                 </p>
             </div>
         </div>

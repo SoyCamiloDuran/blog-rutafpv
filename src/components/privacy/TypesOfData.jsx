@@ -16,7 +16,8 @@ export default function TypesOfData() {
                 <ul>
                     <li>Correo electronico</li>
                     <li>Nombre y Apellido</li>
-                    <li>Cookies and Uso de Datos</li>
+                    <li>Numero de contacto</li>
+                    <li>Cookies y Uso de Datos</li>
                 </ul>
             </div>
 

@@ -8,7 +8,7 @@ export default function UseOfData() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Vudera utiliza los datos recogidos para diversos fines:
+                Ruta FPV utiliza los datos recogidos para diversos fines:
                 </p>
             </div>
           

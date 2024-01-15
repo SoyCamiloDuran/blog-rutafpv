@@ -22,7 +22,7 @@ export default function GeneralTerms() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Estas Condiciones se rigen y serán interpretadas de acuerdo con las leyes de Sudáfrica, sin referencia a su elección o conflictos de principios legales.
+                Estas Condiciones se rigen y serán interpretadas de acuerdo con las leyes de Chile, sin referencia a su elección o conflictos de principios legales.
                 </p>
             </div>
 
@@ -43,7 +43,7 @@ export default function GeneralTerms() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                El Servicio puede estar sujeto a las leyes de control de exportaciones de Estados Unidos y puede estar sujeto a las regulaciones de exportación o importación de otros países. Usted se compromete a no exportar, reexportar o transferir, directa o indirectamente, ningún dato técnico estadounidense adquirido de Vudera, ni ningún producto que utilice dichos datos, en violación de las leyes o reglamentos de exportación de los Estados Unidos.
+                El Servicio puede estar sujeto a las leyes de control de exportaciones de Chile y puede estar sujeto a las regulaciones de exportación o importación de otros países. Usted se compromete a no exportar, reexportar o transferir, directa o indirectamente, ningún dato técnico chileno adquirido de Ruta FPV, ni ningún producto que utilice dichos datos, en violación de las leyes o reglamentos de exportación de Chile.
                 </p>
             </div>
             <div className="text-lg max-w-prose mx-auto">
@@ -63,7 +63,7 @@ export default function GeneralTerms() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Su relación con Vudera es la de un contratista independiente, y ninguna de las partes es un agente o socio de la otra.
+                Su relación con Ruta FPV es la de un contratista independiente, y ninguna de las partes es un agente o socio de la otra.
                 </p>
             </div>
             <div className="text-lg max-w-prose mx-auto">
@@ -73,7 +73,7 @@ export default function GeneralTerms() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Estas Condiciones, así como sus derechos y obligaciones, no podrán ser cedidos, subcontratados, delegados o transferidos de cualquier otro modo por usted sin el previo consentimiento por escrito de Vudera, y cualquier intento de cesión, subcontratación, delegación o transferencia que infrinja lo anterior será nulo y sin efecto. Vudera puede ceder libremente estas Condiciones. Los términos y condiciones establecidos en estas Condiciones serán vinculantes para los cesionarios.
+                Estas Condiciones, así como sus derechos y obligaciones, no podrán ser cedidos, subcontratados, delegados o transferidos de cualquier otro modo por usted sin el previo consentimiento por escrito de Ruta FPV, y cualquier intento de cesión, subcontratación, delegación o transferencia que infrinja lo anterior será nulo y sin efecto. Vudera puede ceder libremente estas Condiciones. Los términos y condiciones establecidos en estas Condiciones serán vinculantes para los cesionarios.
                 </p>
             </div>
             <div className="text-lg max-w-prose mx-auto">
@@ -83,7 +83,7 @@ export default function GeneralTerms() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Copyright © 2021 Vudera Technologies LLC Todos los derechos reservados. Todas las marcas comerciales, logotipos y marcas de servicio ("Marcas") que aparecen en el Servicio son de nuestra propiedad o de la de otros terceros. Usted no está autorizado a utilizar estas marcas sin nuestro consentimiento previo por escrito o el consentimiento de la tercera parte que pueda ser propietaria de las marcas.
+                Copyright © 2024 Ruta FPV Todos los derechos reservados. Todas las marcas comerciales, logotipos y marcas de servicio ("Marcas") que aparecen en el Servicio son de nuestra propiedad o de la de otros terceros. Usted no está autorizado a utilizar estas marcas sin nuestro consentimiento previo por escrito o el consentimiento de la tercera parte que pueda ser propietaria de las marcas.
                 </p>
             </div>
             <div className="text-lg max-w-prose mx-auto">
@@ -93,7 +93,7 @@ export default function GeneralTerms() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                    mail@vudera.com
+                    rutafpv@gmail.com
                 </p>
             </div>
         </div>

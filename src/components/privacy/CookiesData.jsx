@@ -26,7 +26,7 @@ export default function CookiesData() {
                     Ejemplo de cookies utilizadas:
                 </p>
                 <ul>
-                    <li>Cookies de sesión. Utilizamos cookies de sesión para el funcionamiento de nuestro Servicio.</li>
+                    {/* <li>Cookies de sesión. Utilizamos cookies de sesión para el funcionamiento de nuestro Servicio.</li> */}
                     <li>Cookies de preferencia. Utilizamos cookies de preferencia para recordar sus preferencias y diversos ajustes.</li>
                     <li>Cookies de seguridad. Utilizamos cookies de seguridad por motivos de seguridad.</li>
                 </ul>

@@ -13,7 +13,7 @@ export default function TransferOfData() {
             </div>
             <div className="text-lg max-w-prose mx-auto">
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Si usted se encuentra fuera de Estados Unidos y decide proporcionarnos información, tenga en cuenta que transferimos los datos, incluidos los datos personales, a Lima, Perú, y los procesamos allí.
+                Si usted se encuentra fuera de Chile y decide proporcionarnos información, tenga en cuenta que transferimos los datos, incluidos los datos personales y los procesamos allí.
                 </p>
             </div>
             <div className="text-lg max-w-prose mx-auto">
@@ -23,7 +23,7 @@ export default function TransferOfData() {
             </div>
             <div className="text-lg max-w-prose mx-auto">
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Vudera tomará todas las medidas razonablemente necesarias para garantizar que sus datos sean tratados de forma segura y de acuerdo con esta Política de Privacidad y no se llevará a cabo ninguna transferencia de sus Datos Personales a una organización o país a menos que existan controles adecuados que incluyan la seguridad de sus datos y otra información personal.
+                Ruta FPV tomará todas las medidas razonablemente necesarias para garantizar que sus datos sean tratados de forma segura y de acuerdo con esta Política de Privacidad y no se llevará a cabo ninguna transferencia de sus Datos Personales a una organización o país a menos que existan controles adecuados que incluyan la seguridad de sus datos y otra información personal.
                 </p>
             </div>
         </div>

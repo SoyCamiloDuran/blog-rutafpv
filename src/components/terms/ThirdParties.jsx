@@ -11,7 +11,7 @@ export default function ThirdParties() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Cada usuario del Servicio es el único responsable de su propio Contenido de Usuario. No ofrecemos ninguna garantía sobre la exactitud, la actualidad, la idoneidad o la calidad de cualquier Contenido de Usuario. Sus interacciones con otros usuarios del Servicio son únicamente entre usted y dichos usuarios. Usted acepta que Vudera no será responsable de ninguna pérdida o daño incurrido como resultado de dichas interacciones. Si hay una disputa entre usted y cualquier usuario del Servicio, no tenemos ninguna obligación de involucrarnos.
+                Cada usuario del Servicio es el único responsable de su propio Contenido de Usuario. No ofrecemos ninguna garantía sobre la exactitud, la actualidad, la idoneidad o la calidad de cualquier Contenido de Usuario. Sus interacciones con otros usuarios del Servicio son únicamente entre usted y dichos usuarios. Usted acepta que Ruta FPV no será responsable de ninguna pérdida o daño incurrido como resultado de dichas interacciones. Si hay una disputa entre usted y cualquier usuario del Servicio, no tenemos ninguna obligación de involucrarnos.
                 </p>
             </div>
 

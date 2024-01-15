@@ -9,7 +9,7 @@ export default function Header() {
               Terminos de uso
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500 font-worksans-light">
-            Utilizamos sus datos para proporcionar y mejorar el Servicio. Al utilizar el Servicio, usted acepta la recopilación y el uso de la información de acuerdo con esta política. A menos que se defina de otro modo en estas condiciones de servicio, los términos utilizados en esta política tienen el mismo significado que en nuestra política de privacidad, accesible desde http://www.vudera.com/privacy
+            Utilizamos sus datos para proporcionar y mejorar el Servicio. Al utilizar el Servicio, usted acepta la recopilación y el uso de la información de acuerdo con esta política. A menos que se defina de otro modo en estas condiciones de servicio, los términos utilizados en esta política tienen el mismo significado que en nuestra política de privacidad, accesible desde http://www.rutafpv.cl/privacy
             </p>
           </div>
         </div>

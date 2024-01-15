@@ -63,7 +63,7 @@ export default function UsageTerms() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Usted reconoce y acepta que Vudera no tendrá ninguna obligación de proporcionarle ningún tipo de soporte o mantenimiento en relación con el Servicio
+                Usted reconoce y acepta que Ruta FPV no tendrá ninguna obligación de proporcionarle ningún tipo de soporte o mantenimiento en relación con el Servicio.
                 </p>
             </div>
         </div>

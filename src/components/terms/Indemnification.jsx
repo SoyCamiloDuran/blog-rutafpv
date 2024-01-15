@@ -8,7 +8,7 @@ export default function Indemnification() {
                     </span>
                 </h4>
                 <p className="mt-4 text-xl text-gray-500 leading-8">
-                Usted se compromete a indemnizar y eximir de responsabilidad a Vudera (y a sus directivos, empleados y agentes), incluidos los costes y los honorarios de los abogados, por cualquier reclamación o demanda presentada por un tercero debido a, o derivada de 
+                Usted se compromete a indemnizar y eximir de responsabilidad a Ruta FPV (y a sus directivos, empleados y agentes), incluidos los costes y los honorarios de los abogados, por cualquier reclamación o demanda presentada por un tercero debido a, o derivada de 
                 <ul>
                     <li>(a) su uso del Servicio</li>
                     <li>(b) su violación de estas Condiciones</li>
@@ -17,7 +17,7 @@ export default function Indemnification() {
                 </ul>
                  
                 
-                Vudera se reserva el derecho, a su cargo, de asumir la defensa y el control exclusivos de cualquier asunto por el que deba indemnizarnos, y usted acepta cooperar con nuestra defensa de estas reclamaciones. Usted se compromete a no llegar a un acuerdo sobre cualquier asunto indemnizable sin nuestro consentimiento previo por escrito. Vudera se esforzará razonablemente en notificarle cualquier reclamación, acción o procedimiento en cuanto tenga conocimiento de ello.
+                Ruta FPV se reserva el derecho, a su cargo, de asumir la defensa y el control exclusivos de cualquier asunto por el que deba indemnizarnos, y usted acepta cooperar con nuestra defensa de estas reclamaciones. Usted se compromete a no llegar a un acuerdo sobre cualquier asunto indemnizable sin nuestro consentimiento previo por escrito. Vudera se esforzará razonablemente en notificarle cualquier reclamación, acción o procedimiento en cuanto tenga conocimiento de ello.
                 </p>
             </div>
 
