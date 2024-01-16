@@ -18,11 +18,11 @@ class Post(models.Model):
     )
 
     blog_uuid =         models.UUIDField(default=uuid.uuid4, unique=True)
-    title =             models.CharField(max_length=255)
+    title =             models.CharField(max_length=500)
     slug =              models.SlugField(unique=True)
     thumbnail =         models.ImageField(upload_to=blog_directory_path)
     description =       RichTextField(null=True, blank=True)
-    excerpt =           models.CharField(max_length=100)
+    excerpt =           models.CharField(max_length=10000)
     category =          models.ForeignKey(Category, on_delete=models.PROTECT)
     published =         models.DateTimeField(default=timezone.now)
     status =            models.CharField(max_length=10, choices=options, default='draft')
