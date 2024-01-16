@@ -57,11 +57,7 @@ function Servicios(){
                             <span>500.000</span>
                             <span className="ml-3 text-xl font-medium text-gray-500">CLP</span>
                             </div>
-                            <p className="mt-4 text-sm">
-                            <a href="#" className="font-medium text-gray-500 underline">
-                                Conozca nuestra política de membresía
-                            </a>
-                            </p>
+                            
                             <div className="mt-6">
                             <div className="rounded-md shadow">
                                 <a
