@@ -18,7 +18,7 @@ DOMAIN = 'http://localhost:8000'
 SITE_NAME = 'RutaFPV'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'RENDER' not in os.environ
+DEBUG = False
 # DEBUG = True
 
 ALLOWED_HOSTS = [
