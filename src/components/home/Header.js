@@ -60,7 +60,7 @@ function Header(){
               Te regalamos un documento! Si estás empezando y todavía no tienes nada claro, este documento te va a venir de lujo.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                <p className="text-base font-gilroy-medium text-gray-900 dark:text-dark-txt">Déjanos tu email para que podamos enviarte <b>GRATIS</b> el documento a tu correo, y así poder dar tus primeros pasos en este nuevo conocimiento y revisar cuando quieras.</p>
+                <p className="text-base font-gilroy-medium text-gray-900 dark:text-dark-txt">Déjanos tu email para que puedas acceder totalmente <b>GRATIS</b> al documento, y así poder dar tus primeros pasos en este nuevo conocimiento que quieres adquirir y revisar cuando quieras.</p>
                 <form onSubmit={e=>onSubmit(e)} className="mt-3 sm:flex">
                   <label htmlFor="email" className="sr-only">
                     Email

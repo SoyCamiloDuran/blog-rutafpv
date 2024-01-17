@@ -3,10 +3,11 @@ import { connect } from "react-redux"
 import { CheckCircleIcon } from '@heroicons/react/solid'
 
 const includedFeatures = [
-  'Armado del dron',
-  'Configuracion',
-  'Ayuda en caso de problemas',
-  'Simulador Uncrashed',
+  'Vision en primera persona',
+  'Como funciona un sistema FPV',
+  'Componentes de un dron',
+  'Aprendizaje del vuelo',
+  'Tabla comparativa'
 ]
 
 function Demo(){
@@ -28,9 +29,9 @@ function Demo(){
                         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                             <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
                                 <div className="flex-1 bg-white px-6 py-8 lg:p-12">
-                                    <h3 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Documento</h3>
+                                    <h3 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Guia para principiantes</h3>
                                     <p className="mt-6 text-base text-gray-500">
-                                    Al pagar este servicio nos encargaremos de que tu dron se armara con buenos estandares de calidad, para que te llegue a tu casa para que llegues y pruebes tu dron sin problemas.
+                                    Al descargar esta guia podras familiarizar un poco mas sobre este mundo tan apasionante. Disfruta y si tienes cualquier consulta contactamos.
                                     </p>
                                     <div className="mt-8">
                                     <div className="flex items-center">
@@ -60,8 +61,9 @@ function Demo(){
                                     <div className="mt-6">
                                         <div className="rounded-md shadow">
                                             <a
-                                            href="https://rutafpv.s3.us-west-2.amazonaws.com/o.pdf"
+                                            href="https://rutafpv.s3.us-west-2.amazonaws.com/Guia+Drones+FPV.pdf"
                                             download
+                                            target="_blank"
                                             className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
                                             >
                                             Descargar

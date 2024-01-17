@@ -13,7 +13,13 @@ const faqs = [
     question: "Comprar un dron o construirlo?",
     answer:
       "Arrancar desde cero puede asustar, pero es el camino hacia el progreso en este hobby. Sin embargo, tal vez no sea la primera parada. Después de todo, ¿cómo saber si nos encantará volar drones sin haberlo probado? Invertir mucho de entrada puede sonar arriesgado.<br>Y aun así, la respuesta radica en construirlo. Los drones comerciales suelen costar más, los repuestos son caros y complicados de conseguir, y los sistemas cerrados limitan la personalización.<br>La construcción es donde la diversión entra en juego, además de que te equipa con habilidades para diagnosticar, arreglar y mejorar tu dron en el futuro.<br>Lo construiremos, pero no justo ahora. Queremos volar y volar ya. Los simuladores son geniales, pero no son lo mismo. ¡Queremos algo en el cielo AHORA!<br>Si quieres saber más sobre cómo elegir el mejor cuadricóptero para principiantes, echa un vistazo a nuestro tutorial.",
+  },
+
+  {
+    question: "Se puede usar un iPad, una tablet o un Smart Phone para FPV?",
+    answer: "Por supuesto que se puede. Se puede enviar la señal vía Wifi o usar un convertidor de vídeo analógico / digital para mostrar las imágenes en tu dispositivo móvil. Sin embargo, esto no es lo mejor porque la alta latencia que podría hacer que estrelles tu dron.",
   }
+
 ]
 
 function classNames(...classes) {
